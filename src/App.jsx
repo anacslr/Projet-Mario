@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import Navbar from './components/NavBar'
+import Footer from './components/Footer'
 import './App.css'
 import CardList from './components/CardList'
 
@@ -50,7 +52,9 @@ function App() {
 
   return (
     <>
-<CardList marioCharacters={marioCharacters}/>
+    <Navbar/>
+    <CardList marioCharacters={marioCharacters}/>
+    <Footer/>
     </>
   )
 }

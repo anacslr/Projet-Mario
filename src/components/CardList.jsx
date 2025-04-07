@@ -3,7 +3,7 @@ import CardItem from "./CardItem"
 
 function CardList ({marioCharacters})   {
    return(
-    <div>
+    <main>
    {marioCharacters.map((m) => (
 <CardItem 
 name={m.name} 
@@ -13,7 +13,7 @@ image={m.image}
 />
    ))
 }
-</div>
+</main>
 );   
 
 }
