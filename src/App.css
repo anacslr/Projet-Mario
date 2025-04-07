@@ -4,7 +4,13 @@
   padding: 2rem;
   text-align: center;
 }
-
+body{
+  background-image: url("https://img.freepik.com/vecteurs-libre/fond-jeu-video-dessine-main_23-2150307794.jpg?t=st=1744042900~exp=1744046500~hmac=b50bf3d42afd09c1324d2f735cf8e2789fb3e3d3ecd28dc7abb7c19ca5ecb31e&w=996");
+background-position: 'center';
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+}
 img {
   height: 30vh;
 }
