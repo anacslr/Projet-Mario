@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import CardList from './components/CardList'
+import NavBar from './components/NavBar'
 
 const marioCharacters  = [
   {
@@ -50,6 +51,7 @@ function App() {
 
   return (
     <>
+    <NavBar/>
 <CardList marioCharacters={marioCharacters}/>
     </>
   )
