@@ -7,7 +7,9 @@ function CardItem ( {name, strength, origin, image} )
     return (
        
 <article className="CardItem" >
+<p className="etoile3">   {count}</p>
 <p className="etoile">   {count}</p>
+<p className="etoile2">   {count}</p>
     
   
     <div className="CardItemInfo">
